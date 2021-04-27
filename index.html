@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Basics of Golf</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Golf, Basics, Basic, Beginner, Rules, Course, Equipment, History, Golf Formats, pga">
+  <meta name="description" content="Golf : The Basics, a website where you can go to learn about golf history, rules, terms, etiquette, equipment, clubs, and amazing golf courses.">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <link rel="stylesheet" type="text/css" href="golf.css">
+ </head>
+   <body class="content">
+    <div id="wrapper">
+     <header>
+      <h1>Golf : The Basics</h1>
+     </header>
+     <nav id="menu"> 
+      <ul class="parent">
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="rules.html">Rules</a>
+          <ul>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="Etiquette.html">Etiquette</a></li> 
+            <li><a href="Terms.html">Terms</a></li>           
+          </ul>
+       </li>   
+       <li><a href="equipment.html">Equipment</a>
+          <ul>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="equipment.html">Equipment</a></li>            
+          </ul>
+       </li>
+       <li><a href="courses.html">Courses</a></li>
+      </ul>
+     </nav>
+     <div id="homehero"></div>
+     <main>
+      <h2>Welcome</h2>
+      <div id="special">
+        <p><span class="hole">Basics of Golf</span> is here to offer you a basic knowledge of golf. You will be able to learn simple rules, look at popular clothing, and learn about different clubs and when they're used. Check out below to learn some history on the game of golf. You can also see the many formats in the game of golf. If you're interesred in learning more, up to date news, and information on product launches, don't forget to sign up for my monthly newsletter!
+        </p>
+      </div>
+      <section>
+      <h3>History</h3>
+        <p>     
+          Today's modern game of golf originated in 15th-century Scotland. It spread into the United Kingdom and the British Empire before making its way into the United States in the 19th century. Throughout history, golf, or similar versions of golf, have been banned for various reasons. The oldest playing golf course in the world is The Old Links in Musselburgh. First played in 1672. Golf is a fun sport enjoyed by all ages, male and female, all around the world.
+        </p> 
+        <img src="images/old.png" alt="old guy" style="float: left; width: 125px;"> 
+      </section>
+      <section id="home">
+      <h3>Golf Formats</h3>
+          <ul>
+           <li><span class="hole">Stroke Play: </span>This is the most common format of golf. It's an 18 hole cumulative score tournament where the goal is to get the lowest score. Stroke play is you against the course in reality. To win you just have to score lower than the other competitors.</li>
+           <li><span class="hole">Match Play: </span>This is a hole by hole tournament. Your goal is to score lower than your opponent on each individual hole. The player who wins the most holes is declared the winner. Consider this a head to head competition.</li>
+           <li><span class="hole">Best Ball: </span>One of my favorite formats, best ball is your team (up to 4 total players) against an opponent. Best ball can be played with stroke play or match play format rules. Each player plays their own ball for the entire hole and the lowest score between your team is kept. So if you play poorly on a hole, chances are your teammates score will be the once kept.</li>
+           <li><span class="hole">Scramble: </span>Similar to best ball, each team member (up to 4) plays their own ball. However, after each shot, the team gets to choose the best shot. Every player on the team then plays their next shot from that spot. Again, if you hit a bad shot and a teammate hits a better one then you play your next shot from where your teammates ball landed. Your team only counts one stroke from each shot.</li>
+           <li><span class="hole">Skins: </span>Skins format golf is played individually or with a team. Each hole is worth a skin. The player or team with the lowest score wins the hole and the skin. If the hole is a tie then the skin is 'pushed' to the next hole making the next hole worth two skins. The player or team with the most skins after 18 holes wins.</li>
+          </ul>
+      </section> <br>
+      <div id="special4">
+      <hr class="line">
+      </div>
+      <section id="form">
+      <h2 style="text-align: center;">Sign Up for our Newsletter!
+        <img src="images/swingguy2.gif" alt="swing guy" style="float: left; ">
+        <img src="images/flag.gif" alt="hole in one" style="float: right; width: 150px; padding-right: 5px;">
+      </h2> 
+        <p style="text-align: left; font-size: 75%;">Required fields are marked with an asterisk *</p>
+          <form method="post" action="#" id="golf">
+            <label for="myName" style="text-align: right;">*Name:</label><input type="text" id="myName" name="myName" required="required" style="text-align: left;">
+            <label for="myEmail" style="text-align: right;">*E-mail:</label><input type="text" id="myEmail" name="myEmail" required="required" style="text-align: left;">
+            <label for="myDOB" style="text-align: right;">*Date of Birth:</label><input type="date" id="myDOB" name="myDOB" required="required" style="text-align: left;">
+            <label for="experience" style="text-align: right;">*Experience:</label>
+            <select name="experience" id="experience" style="max-width: 75%;">
+              <option value="less than 1">less than 1 year</option>
+              <option value="1 to 3">1 to 3 years</option>
+              <option value="4 to 6">4 to 6 years</option>
+              <option value="7 to 10">7 to 10 years</option>
+              <option value="more than 10">more than 10 years</option>
+            </select>
+            <label for="myComments" style="text-align: right;">Comments:</label><textarea id="myComments" name="myComments" rows="5" cols="20" style="max-width: 75%; text-align: left;"></textarea>
+            <input type="submit" value="Sign Me Up!">
+            <input type="reset" value="Start Over">
+          </form> 
+        </section>
+     </main>
+     <footer>
+        Copyright &copy; 2021 Basics Golf<br>
+        <a href="mailto:jonathan@ray.com">jonathan@ray.com</a>
+     </footer>
+    </div>
+   </body>
+</html>
